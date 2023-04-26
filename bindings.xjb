@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<jxb:bindings version="3.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+              xmlns:jxb="https://jakarta.ee/xml/ns/jaxb">
+    <jxb:bindings>
+        <jxb:globalBindings typesafeEnumMaxMembers="10000" typesafeEnumMemberName="generateName"  />
+    </jxb:bindings>
+
+</jxb:bindings>
