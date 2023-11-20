@@ -8,14 +8,7 @@
 
 package etda.uncefact.data.standard.taxinvoice_reusableaggregatebusinessinformationentity._2;
 
-import etda.uncefact.data.standard.qualifieddatatype._1.CountryIDType;
-import etda.uncefact.data.standard.qualifieddatatype._1.Max16CodeType;
-import etda.uncefact.data.standard.qualifieddatatype._1.Max16TextType;
-import etda.uncefact.data.standard.qualifieddatatype._1.Max256TextType;
-import etda.uncefact.data.standard.qualifieddatatype._1.Max35IDType;
-import etda.uncefact.data.standard.qualifieddatatype._1.Max70TextType;
-import etda.uncefact.data.standard.qualifieddatatype._1.TISI1099CityName;
-import etda.uncefact.data.standard.qualifieddatatype._1.TISI1099CitySubDivisionName;
+import etda.uncefact.data.standard.qualifieddatatype._1.*;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
@@ -154,9 +147,9 @@ public class TradeAddressType {
     @XmlElement(name = "StreetName")
     protected Max70TextType streetName;
     @XmlElement(name = "CityName")
-    protected TISI1099CityName cityName;
+    protected Max35IDType cityName;
     @XmlElement(name = "CitySubDivisionName")
-    protected TISI1099CitySubDivisionName citySubDivisionName;
+    protected Max35IDType citySubDivisionName;
     @XmlElement(name = "CountryID")
     protected CountryIDType countryID;
     @XmlElement(name = "CountrySubDivisionID")
@@ -364,7 +357,7 @@ public class TradeAddressType {
      *     {@link TISI1099CityName }
      *     
      */
-    public TISI1099CityName getCityName() {
+    public Max35IDType getCityName() {
         return cityName;
     }
 
@@ -376,7 +369,7 @@ public class TradeAddressType {
      *     {@link TISI1099CityName }
      *     
      */
-    public void setCityName(TISI1099CityName value) {
+    public void setCityName(Max35IDType value) {
         this.cityName = value;
     }
 
@@ -388,7 +381,7 @@ public class TradeAddressType {
      *     {@link TISI1099CitySubDivisionName }
      *     
      */
-    public TISI1099CitySubDivisionName getCitySubDivisionName() {
+    public Max35IDType getCitySubDivisionName() {
         return citySubDivisionName;
     }
 
@@ -400,7 +393,7 @@ public class TradeAddressType {
      *     {@link TISI1099CitySubDivisionName }
      *     
      */
-    public void setCitySubDivisionName(TISI1099CitySubDivisionName value) {
+    public void setCitySubDivisionName(Max35IDType value) {
         this.citySubDivisionName = value;
     }
 

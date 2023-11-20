@@ -5,5 +5,10 @@
 // Generated on: 2023.04.26 at 11:00:54 PM ICT 
 //
 
-@jakarta.xml.bind.annotation.XmlSchema(namespace = "urn:etda:uncefact:data:standard:Receipt_CrossIndustryInvoice:2", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@jakarta.xml.bind.annotation.XmlSchema(namespace = "urn:etda:uncefact:data:standard:Receipt_CrossIndustryInvoice:2", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED,
+        xmlns = {
+                @XmlNs(prefix = "rsm", namespaceURI = "urn:etda:uncefact:data:standard:Receipt_CrossIndustryInvoice:2")
+        })
 package etda.uncefact.data.standard.receipt_crossindustryinvoice._2;
+
+import jakarta.xml.bind.annotation.XmlNs;
